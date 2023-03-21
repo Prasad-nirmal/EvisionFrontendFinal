@@ -1,0 +1,29 @@
+
+.container-fluid{
+    height: 100vh;
+    /* background: #6b6d6d; */
+}
+
+.display-box{
+    position: fixed;
+    top: 15%;
+    left: 15%;
+    width: 800px;
+    height: 400px;
+    background: rgb(232, 230, 230, 0.3);
+    display: flex;
+    justify-content: space-around;
+    border-radius: 15px;
+    box-shadow: rgba(35, 34, 34);
+}
+
+.input{
+    /* background: rgb(232, 230, 230, 0.4); */
+    margin-top: 20%;
+    height: fit-content;
+}
+
+.middle{
+    margin-top: 21%;
+}
+

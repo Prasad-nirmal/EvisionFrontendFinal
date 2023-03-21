@@ -1,0 +1,22 @@
+.Navbar {
+    height: 40px;
+    display: flex;
+    align-items: center;
+  }
+  .wrapper {
+    width: 100%;
+    padding: 17px;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: right;
+  }
+  .items {
+    display: flex;
+    align-items: center;
+  }
+  .icons {
+    font-size: 20px;
+    color: aliceblue;
+  }
+  

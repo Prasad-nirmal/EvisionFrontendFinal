@@ -1,0 +1,12 @@
+
+.button-wrapper{
+    height: 2rem;
+    width: 5rem;
+    border: 2px solid black;
+}
+.offcanvas-end{
+    height: 2rem;
+    width: 5rem;
+    margin-top: 13rem;
+    margin-left: -1rem;
+}

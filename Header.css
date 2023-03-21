@@ -1,0 +1,111 @@
+.navbar.navbar-expand-lg.navbar-light.bg-light{
+    border: 1px solid black;
+    height: 84px;
+    width: 100vw;
+    /* background: rgb(240, 245, 243); */
+}
+
+.navbar{
+    border: 1px solid black;
+    height: 20px;
+    width: 100%;
+    /* background: rgb(240, 245, 243); */
+}
+
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+    height: 85vh;
+}
+
+.header-left{
+    width: 13rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button{
+    border: 2px solid black;
+}
+
+.logo-nav{
+    height:100px ;
+    width:100px;
+    border: 1px solid black;
+}
+
+.btn.btn-primary.position-relative{
+  height: 3rem;
+  border-radius: 15px;
+  margin-top: 0.9rem;
+}
+
+.bi.bi-person-circle{
+  height: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+/* .navbar {
+  position: relative;
+}
+button {
+  cursor: pointer;
+  background: transparent;;
+  border: none;
+  font-size: 20px;
+}
+.navbar .toggle {
+  position: fixed;
+  left: 30px;
+  top: 40px;
+  cursor: pointer;
+  background: transparent;;
+  border: none;
+}
+.menu-nav {
+  list-style: none;
+  position: absolute;
+  background: #fff;
+  left: 0;
+  width: 0;
+  overflow: hidden;
+  max-width: 290px;
+  z-index: 9;
+  font-size: 18px;
+  box-shadow: 0 10px 15px -3px rgb(46 41 51 / 8%), 0 4px 6px -2px rgb(71 63 79 / 16%);
+  transform: translateX(-100px);
+  transition: transform ease-in-out 0.2s;
+ 
+}
+.menu-nav.show-menu {
+  width: 100%;
+  transform: translateX(0px);
+}
+.menu-nav li a, .menu-nav li span {
+  display: block;
+  padding: 1rem;
+}
+.log-in {
+  color: #777;
+  border-top: 1px solid #efecec;
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.logout {
+  position: absolute;
+  right: 30px;
+  top: 40px;
+  display: flex;
+  gap: 2rem;
+  font-size: 20px;
+  color: #8a4baf;
+} */

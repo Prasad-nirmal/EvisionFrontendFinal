@@ -1,0 +1,65 @@
+.container {
+    background: #48494a;
+    height: 100vh;
+  }
+  .login-box {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 450px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    background-color: #48494a;
+    box-shadow: 0 15px 25px rgb(248, 244, 244);
+    border-radius: 10px;
+    background: transparent;
+  }
+
+
+  .login-box .user-box input {
+    width: 100%;
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 30px;
+    /* border: none; */
+    border: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+  .login-box .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1px 0;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #fff;
+    pointer-events: none;
+    transition: 0.5s;
+  }
+  .login-box .user-box input:focus ~ label,
+  .login-box .user-box input:valid ~ label {
+    top: -25px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 15px;
+  }
+  .Btn {
+    position: relative;
+    display: inline-block;
+    padding: 4px 4px;
+    background-color: #158cba;
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.5s;
+    margin-top: 5px;
+    width: 100%;
+    border-radius: 10px;
+  }
+  .login-box .Btn:hover {
+    color: #fff;
+  }
+  

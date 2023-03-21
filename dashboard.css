@@ -1,0 +1,11 @@
+.card1{
+    width: 12rem;
+    height: 10rem;
+    border: 1px solid black;
+}
+
+.top{
+    width: 10rem;
+    height: 3rem;
+    border: 1px solid black;
+}
